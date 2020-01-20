@@ -10,14 +10,9 @@ const Contenedor = styled.div`
 `;
 
 const Boton = styled.button`
-  background: -webkit-linear-gradient(
-    top left,
-    #007d35 0%,
-    #007d35 40%,
-    #0f574e 100%
-  );
+  background: -webkit-linear-gradient(top left, #007d35 0%, #007d35 40%, #0f574e 100%);
   background-size: 300px;
-  fontfamily: Helvetica, Arial, sans-serif;
+  fontfamily: Arial, Helvetica, Sans-serif;
   color: #fff;
   margin-top: 3rem;
   padding: 1rem 3rem;
