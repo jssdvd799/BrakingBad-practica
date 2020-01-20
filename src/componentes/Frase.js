@@ -1,6 +1,7 @@
 import React from 'react';
 import styled from '@emotion/styled';
 
+<<<<<<< HEAD
 const ContenedorFrase = styled.div`
     padding: 3rem;
     border-radius: .5rem;
@@ -10,6 +11,15 @@ const ContenedorFrase = styled.div`
     @media (min-width: 992px) {
         margin-top: 10rem;
     }
+=======
+const Frase = ({frase}) => {
+    return (
+      <div>
+        <h1>{frase.quote} </h1>
+        <p>- {frase.author} </p>
+      </div>
+    );
+>>>>>>> 54b9f71c767cbc0b77d238e60f41429e2c8f6595
 
     h1 {
         font-family: Arial, Helvetica, sans-serif;
