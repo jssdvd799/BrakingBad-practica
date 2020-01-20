@@ -1,7 +1,6 @@
 import React from 'react';
 import styled from '@emotion/styled';
 
-
 const ContenedorFrase = styled.div`
     padding: 3rem;
     border-radius: .5rem;
