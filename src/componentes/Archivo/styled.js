@@ -1,8 +1,7 @@
-import React from 'react';
-import styled from '@emotion/styled';
 
+import styled from "styled-components";
 
-const ContenedorFrase = styled.div`
+export const ContenedorFrase = styled.div`
     padding: 3rem;
     border-radius: .5rem;
     background-color: #fff;
@@ -27,6 +26,7 @@ const ContenedorFrase = styled.div`
             top: -2rem;
         }
     }
+    
     p {
         font-family: Verdana, Geneva, Tahoma, sans-serif;
         font-size: 1.4rem;
@@ -37,14 +37,3 @@ const ContenedorFrase = styled.div`
     }
 `;
 
-const Frase = ({frase}) => {
-
-    return ( 
-        <ContenedorFrase>
-            <h1>{frase.quote} </h1>
-            <p>- {frase.author} </p>
-        </ContenedorFrase>
-     );
-}
- 
-export default Frase;
