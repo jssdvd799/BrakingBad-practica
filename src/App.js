@@ -1,6 +1,6 @@
-import React, { useState, useEffect } from "react";
-import styled from "@emotion/styled";
-import Frase from './componentes/Frase';
+import React, { useState, useEffect } from 'react';
+import styled from '@emotion/styled';
+import Frase from './components/Frase';
 
 const Contenedor = styled.div`
   display: flex;
@@ -38,8 +38,9 @@ function App() {
     guardarFrase(frase[0]);
   }
 
+
   // Cargar una frase
-  useEffect(() => {
+  useEffect( () => {
     consultarAPI()
   }, []);
 
