@@ -2,7 +2,7 @@
 import styled from "styled-components";
 
 export const ContenedorFrase = styled.div`
-    padding: 3rem;
+    padding: 1rem;
     border-radius: .5rem;
     background-color: #fff;
     max-width:800px;
@@ -19,7 +19,7 @@ export const ContenedorFrase = styled.div`
 
         &::before {
             content: open-quote;
-            font-size: 10rem;
+            font-size: 6rem;
             color: black;
             position: absolute;
             left: -1rem;
